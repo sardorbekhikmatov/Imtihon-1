@@ -1,0 +1,252 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+     background: var(--background);
+}
+:root {
+    --font-family: "Space Mono", sans-serif;
+  --second-family: "Work Sans", sans-serif;
+	--background: #2b2b2b;
+	--background---secondary: #3b3b3b;
+	--caption--label-text: #858584;
+	--text: #fff;
+	--call-to-action: #a259ff;
+	--blue-accent: #377df7;
+	--red-accent: #ff7262;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background: var(--background);
+    
+}
+
+.List{
+    display: flex;
+    gap: 20px;
+   
+}
+.List li{
+    list-style-type: none;
+    margin-top: 20px;
+     
+}
+.List li a{
+    text-decoration: none;
+    font-family: var(--second-family);
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: var(--text);
+
+}
+
+.nav-section  button{
+border-radius: 20px;
+width: 152px;
+height: 60px;
+background: var(--call-to-action);
+font-family: var(--second-family);
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: var(--text);
+border: none;
+}
+.hero{
+    width: 1280px;
+height: 704px;
+    display: flex;
+    justify-content: space-between;
+    background: var(--background);
+    padding-top: 80px;
+    gap: 30px;
+    
+    
+}
+.hero img{
+    width: 510px;
+height: 510px;
+
+}
+.hero-section h2{
+     width: 510px;
+    height: 222px;
+    font-family: var(--second-family);
+font-weight: 600;
+font-size: 67px;
+line-height: 110%;
+text-transform: capitalize;
+color: var(--text);
+margin-left: 115px;
+}
+.hero-section p{
+    width: 510px;
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 22px;
+line-height: 160%;
+text-transform: capitalize;
+color: var(--text);
+margin-left: 115px;
+margin-top: 20px;
+}
+.hero-section button{
+    border-radius: 20px;
+width: 224px;
+height: 60px;
+background: var(--call-to-action);
+font-family: var(--second-family);
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: var(--text);
+margin-left: 115px;
+margin-top: 30px;
+border: none;
+
+}
+.card{
+    padding: 80px 0;
+width: 1280px;
+height: 836px;
+    background: var(--background);
+
+}
+.card h3{
+    font-family: var(--second-family);
+font-weight: 600;
+font-size: 38px;
+line-height: 120%;
+text-transform: capitalize;
+color: var(--text);
+padding-left: 117px;
+}
+.card p{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 22px;
+line-height: 160%;
+text-transform: capitalize;
+color: var(--text);
+padding-left: 117px;
+margin-top: 10px;
+}
+.card-section img{
+    padding-left: 117px;
+    margin-top: 60px;
+}
+
+.core{
+    
+width: 1280px;
+height: 1085px;
+background: var(--background);
+display: flex;
+align-items: center;
+
+}
+.core button{
+    border: 2px solid var(--call-to-action);
+border-radius: 20px;
+font-family: var(--second-family);
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: var(--text);
+
+width: 247px;
+height: 60px;
+background: var(--background);
+margin-left: 100px;
+}
+.core-content{
+    padding-left: 115px;
+}
+.core-content h3{
+    font-family: var(--second-family);
+font-weight: 600;
+font-size: 38px;
+line-height: 120%;
+text-transform: capitalize;
+color: var(--text);
+}
+.core-content p{
+    font-family: var(--second-family);
+font-weight: 600;
+font-size: 27px;
+line-height: 120%;
+text-transform: capitalize;
+color: var(--text);
+margin-top: 10px;
+}
+
+.core-content img{
+margin-top: 60px;
+}
+.pepse{
+    padding: 80px;
+width: 1280px;
+height: 928px;
+background: var(--background);
+}
+.pepse h3{
+    font-family: var(--second-family);
+font-weight: 600;
+font-size: 38px;
+line-height: 120%;
+text-transform: capitalize;
+color: var(--text);
+}
+.pepse img{
+    margin-top: 60px;
+}
+
+.pro{
+    padding: 80px;
+width: 1280px;
+height: 780px;
+background: var(--background);
+}
+.pro h3{
+    font-family: var(--second-family);
+font-weight: 600;
+font-size: 40px;
+line-height: 120%;
+text-transform: capitalize;
+color: var(--text);
+font-family: var(--second-family);
+font-weight: 400;
+font-size: 22px;
+line-height: 160%;
+text-transform: capitalize;
+color: var(--text);
+}
+.pro p{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 22px;
+line-height: 160%;
+text-transform: capitalize;
+color: var(--text);
+}
+.pro-678{
+    display:  flex;
+    gap: 30px;
+    margin-top: 60px;
+}
